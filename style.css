@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #f2d9ff, #e7dcff);
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 420px;
+  margin: auto;
+  padding: 20px 15px 100px;
+}
+
+/* Cards */
+.card {
+  background: #f7f4ff;
+  border-radius: 18px;
+  padding: 18px;
+  margin-bottom: 18px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+/* Header */
+.header h1 {
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 18px;
+}
+
+.user img {
+  width: 28px;
+}
+
+.logout {
+  display: block;
+  text-align: center;
+  margin-top: 8px;
+  color: #555;
+  text-decoration: none;
+}
+
+/* Section titles */
+.section-title {
+  background: linear-gradient(90deg, #ff00cc, #6a00ff);
+  color: white;
+  text-align: center;
+  padding: 14px;
+  border-radius: 25px;
+  font-weight: bold;
+  margin-bottom: 14px;
+}
+
+/* Debt */
+.debt {
+  text-align: center;
+}
+
+.debt .status {
+  color: #6a00ff;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.debt h2 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.btn {
+  padding: 10px 22px;
+  border-radius: 14px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn.light {
+  background: #e9f7ff;
+  color: #0077cc;
+}
+
+/* Table */
+.table .row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 14px;
+}
+
+.header-row {
+  font-weight: bold;
+}
+
+.paid {
+  color: green;
+  font-weight: bold;
+}
+
+/* Bottom menu */
+.menu {
+  position: fixed;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: white;
+  width: 90%;
+  max-width: 420px;
+  border-radius: 22px;
+  display: flex;
+  justify-content: space-around;
+  padding: 12px 0;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.menu-item {
+  font-size: 22px;
+}
